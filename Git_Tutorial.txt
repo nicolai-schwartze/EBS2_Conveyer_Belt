@@ -1,0 +1,103 @@
+/*
+ * 
+ * Anleitung für einfache Bedienung von Git
+ * Es wird davon ausgegangen, dass Git for Windows bereits installiert ist
+ * $ makiert eine Eingabe in die Konsole
+ * > makriert eine Ausgabe auf der Konsole
+ * In die Konsole kann Text kopiert werden, allerdings nur mit Rechtsklick - Paste
+ * Da es sich um eine Konsole handelt, beendet Strg + c den aktuellen Vorgang
+ * Das Wort "master" bezeichnet in den folgenden Befehlen den sogenannten Branch.  
+ * Mit fork könnte ein neuer Branch hinzugefügt werden. Auf Branches kann parallel 
+ * gearbeitet werden. Dies stellt im Üblichen eine neue Variante des Projektes oder 
+ * der geschützte Entwicklungsbereich einer Applikation dar. 
+ * Hier wird ausschließlich auf dem master branch gearbeitet. 
+ *
+ */
+
+ 
+Initialisieren - muss nur einmal ausgeführt werden
+//-------------------------------------------------------------------------------------------------
+1) zu gewünschtem Ordner im Windows Explorer navigieren
+2) Rechtsklick - Git Bash here
+3) Git mit Username verknüpfen
+
+$ git config --global user.name "Vorname Nachname"
+$ git config --global user.name
+> Vorname Nachname
+
+4) Repository von Remote Server (z.B. GitHub) kopieren - URL nach belieben anpassen
+   möglicherweise muss man sich an dieser Stelle mit dem GitHub Account anmelden
+   Dafür würde ein eigenes Anmeldefenster aufgehen
+   
+$ git clone https://github.com/nicolai-schwartze/EBS2_Conveyer_Belt
+
+5) Das Repository wird heruntergeladen und als Ordner gespeichert.
+   In der Konsole muss in den neuen Ordner gewechselt werden (cd = change directory)
+   
+$ cd EBS2_Conveyer_Belt/
+
+6) Um die Bearbeitung hochladen zu können, muss die URL für den upstream spezifiziert werden.
+   Dies ist üblicherweise das selbe Repository, das heruntergeladen wurde. 
+
+$ git remote add upstream https://github.com/nicolai-schwartze/EBS2_Conveyer_Belt
+
+7) Damit ist das lokale Repository vollständig erstellt.
+//-------------------------------------------------------------------------------------------------
+
+
+
+
+Workflow im täglichen Umgang
+//-------------------------------------------------------------------------------------------------
+8) Bevor Bearbeitungen vorgenommen werden, muss das lokale Repository auf 
+   den neusten Stand gebracht werden. Dafür wird das folgende Kommando angegeben. 
+   Wichtig: Die Konsole muss sich im Repository Ordner befinden. 
+   
+$ git pull upstream master
+
+9) Jetzt können alle Bearbeitungen vorgenommmen werden. Sobald dies erledigt ist werden die 
+   Änderungen auf das remote Repositroy gepushed werden. Dafür müssen zuerst alle files 
+   geaddet werden. Der . steht dabei für alle Dateien in allen Ordner und Subordner.
+   
+$ git add .
+
+10) Mit commit werden die Änderungen zum eigenen lokalen Repository hinzugefügt. 
+    Mit -m kann eine Message dem Beitrag angehängt wereden. Zum "good practice" gehört diese
+	Nachricht dazu. Es soll in wenigen Worten erklären was geändert wurde. 
+	
+$ git commit -m "Test Commit"
+
+11) Schließlich werden die Änderungen auf das Remote Repository gepushed. Dies geschieht mit dem
+	Kommando: 
+
+$ git push origin master
+
+12) An dieser Stelle können zwei verschiedene Sachen passieren: 
+			a) Die Dateien werden hochgeladen, damit sind die Bearbeitungen angenommen.
+			b) Die Dateien werden nicht hochgeladen, da es zu einem Konflikt gekommen ist.
+			   Dies passiert dann wenn von zwei verschiedenen Contributer das selbe File 
+			   bearbeitet wurde. Dann ist der Teilnehmer mit der Error-Meldung aufgefordert 
+			   den Konflikt zu lösen. Dies geschieht durch erneutes herunterladen des Rep.
+			   
+$ git pull upstream master
+
+13) Die Konsole sollte eine Meldung enthalten, in welchem File der Konflikt aufgetreten ist. 
+    In diesem File werden beide Inhalte dargestellt: Sowohl die lokale Lösung, als auch die 
+	remote Inhalte. Jetzt muss der User das File bearbeiten. Besonders bei Programmcode ist 
+	darauf zu achten, dass alle Änderungen gründlich überprüft werden. 
+	Wichtig: Git kann nur bei ASCI codierten Files anzeigen wo der Konflik auftritt. 
+	         Word Dokumente, Bilder oder kompilierte Dateien generieren zwar einen
+			 Konflikt, dieser kann aber nicht so leicht gelöst werden. Um Konflikte vorzubeugen,
+			 kann vor der Arbeit zwischen den Teilnehmern ausgemacht werden, wer für welche
+			 Dateien zuständig ist. 
+	Schließlich kann das Repository mit dem behobenen Konflikt wieder hochgeladen werden. 
+	
+$ git push origin master
+
+//-------------------------------------------------------------------------------------------------
+
+
+
+
+
+
