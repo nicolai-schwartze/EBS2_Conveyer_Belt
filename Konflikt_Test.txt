@@ -1,6 +1,3 @@
 Konflikt Test
-<<<<<<< HEAD
 Konflikt 2
-=======
-Konflikt 1
->>>>>>> 7cc9d5eff85e45fdeeb5d020ddc0d2517d1dbc40
+
