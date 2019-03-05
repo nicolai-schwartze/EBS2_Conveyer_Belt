@@ -1,4 +1,4 @@
-/*
+﻿/*
  * 
  * Anleitung für einfache Bedienung von Git
  * Es wird davon ausgegangen, dass Git for Windows bereits installiert ist
@@ -19,11 +19,13 @@ Initialisieren - muss nur einmal ausgeführt werden
 //-------------------------------------------------------------------------------------------------
 1) zu gewünschtem Ordner im Windows Explorer navigieren
 2) Rechtsklick - Git Bash here
-3) Git mit Username verknüpfen
+3) Git mit Username und Email verknüpfen
 
 $ git config --global user.name "Vorname Nachname"
 $ git config --global user.name
 > Vorname Nachname
+
+$ git config --global user.email "Vorname.Nachname@host.com"
 
 4) Repository von Remote Server (z.B. GitHub) kopieren - URL nach belieben anpassen
    möglicherweise muss man sich an dieser Stelle mit dem GitHub Account anmelden
