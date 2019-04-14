@@ -1,0 +1,15 @@
+\babel@toc {ngerman}{}
+\contentsline {chapter}{List of Figures}{4}{section*.4}
+\contentsline {chapter}{List of Tables}{5}{section*.6}
+\contentsline {chapter}{List of Abbreviations}{6}{section*.8}
+\contentsline {chapter}{\numberline {1}Introduction}{7}{chapter.1}
+\contentsline {chapter}{\numberline {2}Scenarios}{8}{chapter.2}
+\contentsline {section}{\numberline {2.1}Use Case Diagram}{8}{section.2.1}
+\contentsline {section}{\numberline {2.2}Sequence Diagram}{9}{section.2.2}
+\contentsline {section}{\numberline {2.3}Activity Diagram}{10}{section.2.3}
+\contentsline {chapter}{\numberline {3}Design}{13}{chapter.3}
+\contentsline {section}{\numberline {3.1}Class Diagram}{13}{section.3.1}
+\contentsline {section}{\numberline {3.2}State Diagram}{14}{section.3.2}
+\contentsline {chapter}{\numberline {4}Summary}{17}{chapter.4}
+\contentsline {chapter}{Appendix A: Assignment}{18}{chapter*.19}
+\contentsline {chapter}{Appendix B: Requirements}{20}{chapter*.20}
