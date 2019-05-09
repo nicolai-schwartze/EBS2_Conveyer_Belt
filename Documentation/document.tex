@@ -300,6 +300,16 @@ The software is designed as three hierarchical state machines. The top-level dia
 	\caption[State Machine Service]{State Machine Service}
 	\label{fig:StateMachineService}
 \end{figure}
+
+\chapter{Change Notes}
+\label{chap:ChangeNotes}
+We had to change the original diagrams compared to the final version of the implementation. The changes and their reason are noted here. 
+
+\begin{itemize}
+	\item combine 3 state machines into one state machine (no hierarchical state machines allowed in the framework)
+	\item changed keyboard name to keypad, as the name keyboard was already used in the files from Pilsan
+	\item added init methods for server tasks
+\end{itemize}
  
 \chapter{Summary}
 \label{chap:Summary}
