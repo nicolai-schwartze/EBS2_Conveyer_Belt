@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.11.18)  9 MAY 2019 17:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6880 64-bit) (preloaded format=pdflatex 2018.11.18)  16 MAY 2019 16:50
 entering extended mode
 **./document.tex
 (document.tex
@@ -1454,23 +1454,23 @@ chapter 5.
 File: Assignment/_MEM2-ES_Project.pdf Graphic file (type pdf)
 <use Assignment/_MEM2-ES_Project.pdf>
 Package pdftex.def Info: Assignment/_MEM2-ES_Project.pdf  used on input line 32
-4.
+6.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: Assignment/_MEM2-ES_Project.pdf Graphic file (type pdf)
 <use Assignment/_MEM2-ES_Project.pdf>
 Package pdftex.def Info: Assignment/_MEM2-ES_Project.pdf  used on input line 32
-4.
+6.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 <Assignment/_MEM2-ES_Project.pdf, id=321, page=1, 597.55246pt x 845.07718pt>
 File: Assignment/_MEM2-ES_Project.pdf Graphic file (type pdf)
 <use Assignment/_MEM2-ES_Project.pdf, page 1>
 Package pdftex.def Info: Assignment/_MEM2-ES_Project.pdf , page1 used on input 
-line 324.
+line 326.
 (pdftex.def)             Requested size: 597.551pt x 845.07512pt.
 File: Assignment/_MEM2-ES_Project.pdf Graphic file (type pdf)
 <use Assignment/_MEM2-ES_Project.pdf, page 1>
 Package pdftex.def Info: Assignment/_MEM2-ES_Project.pdf , page1 used on input 
-line 324.
+line 326.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
  [19
 
@@ -1478,17 +1478,17 @@ line 324.
 File: Assignment/_MEM2-ES_Project.pdf Graphic file (type pdf)
 <use Assignment/_MEM2-ES_Project.pdf, page 1>
 Package pdftex.def Info: Assignment/_MEM2-ES_Project.pdf , page1 used on input 
-line 324.
+line 326.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: Assignment/_MEM2-ES_Project.pdf Graphic file (type pdf)
 <use Assignment/_MEM2-ES_Project.pdf, page 1>
 Package pdftex.def Info: Assignment/_MEM2-ES_Project.pdf , page1 used on input 
-line 324.
+line 326.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
 File: Assignment/_MEM2-ES_Project.pdf Graphic file (type pdf)
 <use Assignment/_MEM2-ES_Project.pdf, page 1>
 Package pdftex.def Info: Assignment/_MEM2-ES_Project.pdf , page1 used on input 
-line 324.
+line 326.
 (pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
  [20 <./Assignment/_MEM2-ES_Project.pdf>]
 
@@ -1501,7 +1501,7 @@ File: Requirements/Requirements-Embeddes-Systems-Project.pdf Graphic file (type
  pdf)
 <use Requirements/Requirements-Embeddes-Systems-Project.pdf>
 Package pdftex.def Info: Requirements/Requirements-Embeddes-Systems-Project.pdf
-  used on input line 330.
+  used on input line 332.
 (pdftex.def)             Requested size: 845.07512pt x 597.551pt.
 
 
@@ -1512,7 +1512,7 @@ File: Requirements/Requirements-Embeddes-Systems-Project.pdf Graphic file (type
  pdf)
 <use Requirements/Requirements-Embeddes-Systems-Project.pdf>
 Package pdftex.def Info: Requirements/Requirements-Embeddes-Systems-Project.pdf
-  used on input line 330.
+  used on input line 332.
 (pdftex.def)             Requested size: 845.07512pt x 597.551pt.
 
 
@@ -1530,13 +1530,13 @@ File: Requirements/Requirements-Embeddes-Systems-Project.pdf Graphic file (type
  pdf)
 <use Requirements/Requirements-Embeddes-Systems-Project.pdf, page 1>
 Package pdftex.def Info: Requirements/Requirements-Embeddes-Systems-Project.pdf
- , page1 used on input line 330.
+ , page1 used on input line 332.
 (pdftex.def)             Requested size: 845.07512pt x 597.551pt.
 File: Requirements/Requirements-Embeddes-Systems-Project.pdf Graphic file (type
  pdf)
 <use Requirements/Requirements-Embeddes-Systems-Project.pdf, page 1>
 Package pdftex.def Info: Requirements/Requirements-Embeddes-Systems-Project.pdf
- , page1 used on input line 330.
+ , page1 used on input line 332.
 (pdftex.def)             Requested size: 597.55899pt x 422.5328pt.
 [21
 
@@ -1545,19 +1545,19 @@ File: Requirements/Requirements-Embeddes-Systems-Project.pdf Graphic file (type
  pdf)
 <use Requirements/Requirements-Embeddes-Systems-Project.pdf, page 1>
 Package pdftex.def Info: Requirements/Requirements-Embeddes-Systems-Project.pdf
- , page1 used on input line 330.
+ , page1 used on input line 332.
 (pdftex.def)             Requested size: 597.55899pt x 422.5328pt.
 File: Requirements/Requirements-Embeddes-Systems-Project.pdf Graphic file (type
  pdf)
 <use Requirements/Requirements-Embeddes-Systems-Project.pdf, page 1>
 Package pdftex.def Info: Requirements/Requirements-Embeddes-Systems-Project.pdf
- , page1 used on input line 330.
+ , page1 used on input line 332.
 (pdftex.def)             Requested size: 597.55899pt x 422.5328pt.
 File: Requirements/Requirements-Embeddes-Systems-Project.pdf Graphic file (type
  pdf)
 <use Requirements/Requirements-Embeddes-Systems-Project.pdf, page 1>
 Package pdftex.def Info: Requirements/Requirements-Embeddes-Systems-Project.pdf
- , page1 used on input line 330.
+ , page1 used on input line 332.
 (pdftex.def)             Requested size: 597.55899pt x 422.5328pt.
  [22 <./Requirements/Requirements-Embeddes-Systems-Project.pdf>]
 
@@ -1570,19 +1570,19 @@ File: Requirements/Requirements-Embeddes-Systems-Project.pdf Graphic file (type
  pdf)
 <use Requirements/Requirements-Embeddes-Systems-Project.pdf, page 2>
 Package pdftex.def Info: Requirements/Requirements-Embeddes-Systems-Project.pdf
- , page2 used on input line 330.
+ , page2 used on input line 332.
 (pdftex.def)             Requested size: 597.55899pt x 422.5328pt.
 File: Requirements/Requirements-Embeddes-Systems-Project.pdf Graphic file (type
  pdf)
 <use Requirements/Requirements-Embeddes-Systems-Project.pdf, page 2>
 Package pdftex.def Info: Requirements/Requirements-Embeddes-Systems-Project.pdf
- , page2 used on input line 330.
+ , page2 used on input line 332.
 (pdftex.def)             Requested size: 597.55899pt x 422.5328pt.
 File: Requirements/Requirements-Embeddes-Systems-Project.pdf Graphic file (type
  pdf)
 <use Requirements/Requirements-Embeddes-Systems-Project.pdf, page 2>
 Package pdftex.def Info: Requirements/Requirements-Embeddes-Systems-Project.pdf
- , page2 used on input line 330.
+ , page2 used on input line 332.
 (pdftex.def)             Requested size: 597.55899pt x 422.5328pt.
 [23 <./Requirements/Requirements-Embeddes-Systems-Project.pdf>]
 
@@ -1595,26 +1595,26 @@ File: Requirements/Requirements-Embeddes-Systems-Project.pdf Graphic file (type
  pdf)
 <use Requirements/Requirements-Embeddes-Systems-Project.pdf, page 3>
 Package pdftex.def Info: Requirements/Requirements-Embeddes-Systems-Project.pdf
- , page3 used on input line 330.
+ , page3 used on input line 332.
 (pdftex.def)             Requested size: 597.55899pt x 422.5328pt.
 File: Requirements/Requirements-Embeddes-Systems-Project.pdf Graphic file (type
  pdf)
 <use Requirements/Requirements-Embeddes-Systems-Project.pdf, page 3>
 Package pdftex.def Info: Requirements/Requirements-Embeddes-Systems-Project.pdf
- , page3 used on input line 330.
+ , page3 used on input line 332.
 (pdftex.def)             Requested size: 597.55899pt x 422.5328pt.
 File: Requirements/Requirements-Embeddes-Systems-Project.pdf Graphic file (type
  pdf)
 <use Requirements/Requirements-Embeddes-Systems-Project.pdf, page 3>
 Package pdftex.def Info: Requirements/Requirements-Embeddes-Systems-Project.pdf
- , page3 used on input line 330.
+ , page3 used on input line 332.
 (pdftex.def)             Requested size: 597.55899pt x 422.5328pt.
 [24 <./Requirements/Requirements-Embeddes-Systems-Project.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 334.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 334.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 336.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 336.
  (document.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 334.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 334.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 336.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 336.
 Package rerunfilecheck Info: File `document.out' has not changed.
 (rerunfilecheck)             Checksum: 2248011C48D109CE1AC28F9AE2230F9F;824.
  ) 
@@ -1633,7 +1633,7 @@ ec\dpi600\ecsx2488.pk> <C:\Users\Admin\AppData\Local\MiKTeX\2.9\fonts\pk\ljfour
 \pk\ljfour\jknappen\ec\dpi600\ecsx1440.pk> <C:\Users\Admin\AppData\Local\MiKTeX
 \2.9\fonts\pk\ljfour\jknappen\ec\dpi600\ecsx1728.pk><C:/Users/Admin/AppData/Loc
 al/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on document.pdf (24 pages, 816786 bytes).
+Output written on document.pdf (24 pages, 817149 bytes).
 PDF statistics:
  613 PDF objects out of 1000 (max. 8388607)
  55 named destinations out of 1000 (max. 500000)

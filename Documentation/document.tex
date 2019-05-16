@@ -306,9 +306,11 @@ The software is designed as three hierarchical state machines. The top-level dia
 We had to change the original diagrams compared to the final version of the implementation. The changes and their reason are noted here. 
 
 \begin{itemize}
-	\item combine 3 state machines into one state machine (no hierarchical state machines allowed in the framework)
-	\item changed keyboard name to keypad, as the name keyboard was already used in the files from Pilsan
-	\item added init methods for server tasks
+	\item We combine the 3 state machines into one state machine because the framework does not allow hierarchical state charts. \\
+	In order to display the diagrams, the pictures are still split into 3 images. Further, the former lower level machines now can only be left from the idle state. 
+	\item As the provided hardware files already define a keyboard, the name of the class had to be changed. Thus the class is now called KeyPad.
+	\item The telnet-server task as well as the tcp-server task did not have a initialisation method. This was included in the class diagram. 
+	\item The server work tasks needs to outside of the class. Thus, these functions are created externally and are not shown in the class diagram. 
 \end{itemize}
  
 \chapter{Summary}
