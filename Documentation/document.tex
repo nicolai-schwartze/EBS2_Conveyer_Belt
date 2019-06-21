@@ -145,27 +145,7 @@
 \addcontentsline{toc}{chapter}{List of Figures}
 \listoffigures
 
-\thispagestyle{empty}
-\fancyfoot[C]{\thepage}%
-\clearpage
-\phantomsection
-\addcontentsline{toc}{chapter}{List of Tables}
-\listoftables
 
-% evtl. Abkürzungsverzeichnis:
-\thispagestyle{empty}
-\fancyfoot[C]{\thepage}%
-\clearpage
-\phantomsection
-\addcontentsline{toc}{chapter}{List of Abbreviations}
-\thispagestyle{empty}
-\fancyfoot[C]{\thepage}%
-\chapter*{List of Abbreviations}
-\thispagestyle{empty}
-\fancyfoot[C]{\thepage}%
-\begin{acronym}[SQL]
-
-\end{acronym}
 
 %\begin{figure}[H]
 %	\centering
@@ -312,6 +292,10 @@ We had to change the original diagrams compared to the final version of the impl
 	\item The telnet-server task as well as the tcp-server task did not have a initialisation method. This was included in the class diagram. 
 	\item The server work tasks needs to outside of the class. Thus, these functions are created externally and are not shown in the class diagram. 
 \end{itemize}
+
+
+\chapter{Controller}
+
  
 \chapter{Summary}
 \label{chap:Summary}
@@ -330,6 +314,11 @@ We had to change the original diagrams compared to the final version of the impl
 \label{chap:AppendixBRequirements}
 \addcontentsline{toc}{chapter}{Appendix B: Requirements}   % evtl. ersetzen mit \addcontentsline{toc}{chapter}{Anhang}
 \includepdf[pages=-]{Requirements/Requirements-Embeddes-Systems-Project.pdf}
+
+\chapter*{Appendix C: Old Documentation}  % evtl. ersetzen mit \chapter*{Anhang}
+\label{chap:AppendixCOldDocumentation}
+\addcontentsline{toc}{chapter}{Appendix C: Old Documentation}   % evtl. ersetzen mit \addcontentsline{toc}{chapter}{Anhang}
+\includepdf[pages={8-16}]{document_old.pdf}
 
 
 
