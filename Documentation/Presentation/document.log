@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.9)  13 JUN 2019 16:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6840 64-bit) (preloaded format=pdflatex 2018.12.9)  26 JUN 2019 13:34
 entering extended mode
 **./document.tex
 (document.tex
@@ -1021,14 +1021,126 @@ x.map}
 ] [3
 
 ]
-<fault_tree_example.pdf, id=116, 555.74324pt x 593.45413pt>
+<fault_tree_example.pdf, id=145, 555.74324pt x 593.45413pt>
 File: fault_tree_example.pdf Graphic file (type pdf)
 <use fault_tree_example.pdf>
-Package pdftex.def Info: fault_tree_example.pdf  used on input line 34.
+Package pdftex.def Info: fault_tree_example.pdf  used on input line 38.
 (pdftex.def)             Requested size: 184.3758pt x 196.88184pt.
- [4
 
- <./fault_tree_example.pdf>] [5
+Overfull \vbox (13.06839pt too high) detected at line 38
+ []
+
+[4
+
+ <./fault_tree_example.pdf>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 49.
+
+("C:\Users\emrah\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 49.
+("C:\Users\emrah\AppData\Local\Programs\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
+line 49.
+
+("C:\Users\emrah\AppData\Local\Programs\MiKTeX 2.9\tex\latex\sansmathaccent\ot1
+mathkerncmss.fd"
+File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+) [5
+
+] (document.toc) [6
+
+]
+<../faultTreeAnalysis/FaultTreeAnalysisConveyer.pdf, id=256, 542.98856pt x 337.
+26pt>
+File: ../faultTreeAnalysis/FaultTreeAnalysisConveyer.pdf Graphic file (type pdf
+)
+<use ../faultTreeAnalysis/FaultTreeAnalysisConveyer.pdf>
+Package pdftex.def Info: ../faultTreeAnalysis/FaultTreeAnalysisConveyer.pdf  us
+ed on input line 60.
+(pdftex.def)             Requested size: 215.10196pt x 133.59962pt.
+ [7
+
+ <../faultTreeAnalysis/FaultTreeAnalysisConveyer.pdf
+
+pdfTeX warning: pdflatex.exe (file ../faultTreeAnalysis/FaultTreeAnalysisConvey
+er.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets'
+, type <array>); ignored.
+>]
+<../faultTreeAnalysis/FaultTreeAnalysisNetwork.pdf, id=297, 1388.3067pt x 417.4
+7968pt>
+File: ../faultTreeAnalysis/FaultTreeAnalysisNetwork.pdf Graphic file (type pdf)
+
+<use ../faultTreeAnalysis/FaultTreeAnalysisNetwork.pdf>
+Package pdftex.def Info: ../faultTreeAnalysis/FaultTreeAnalysisNetwork.pdf  use
+d on input line 69.
+(pdftex.def)             Requested size: 322.65529pt x 97.0248pt.
+
+Overfull \hbox (15.36542pt too wide) in paragraph at lines 69--69
+ [] 
+ []
+
+[8
+
+ <../faultTreeAnalysis/FaultTreeAnalysisNetwork.pdf
+
+pdfTeX warning: pdflatex.exe (file ../faultTreeAnalysis/FaultTreeAnalysisNetwor
+k.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets',
+ type <array>); ignored.
+>]
+<../faultTreeAnalysis/FaultTreeAnalysisHardware.pdf, id=337, 897.3525pt x 482.7
+636pt>
+File: ../faultTreeAnalysis/FaultTreeAnalysisHardware.pdf Graphic file (type pdf
+)
+<use ../faultTreeAnalysis/FaultTreeAnalysisHardware.pdf>
+Package pdftex.def Info: ../faultTreeAnalysis/FaultTreeAnalysisHardware.pdf  us
+ed on input line 78.
+(pdftex.def)             Requested size: 276.559pt x 148.78593pt.
+ [9
+
+ <../faultTreeAnalysis/FaultTreeAnalysisHardware.pdf
+
+pdfTeX warning: pdflatex.exe (file ../faultTreeAnalysis/FaultTreeAnalysisHardwa
+re.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets'
+, type <array>); ignored.
+>]
+<../faultTreeAnalysis/FaultTreeAnalysisSoftware.pdf, id=377, 193.6836pt x 181.6
+386pt>
+File: ../faultTreeAnalysis/FaultTreeAnalysisSoftware.pdf Graphic file (type pdf
+)
+<use ../faultTreeAnalysis/FaultTreeAnalysisSoftware.pdf>
+Package pdftex.def Info: ../faultTreeAnalysis/FaultTreeAnalysisSoftware.pdf  us
+ed on input line 87.
+(pdftex.def)             Requested size: 122.91406pt x 115.26993pt.
+ [10
+
+ <../faultTreeAnalysis/FaultTreeAnalysisSoftware.pdf
+
+pdfTeX warning: pdflatex.exe (file ../faultTreeAnalysis/FaultTreeAnalysisSoftwa
+re.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcSets'
+, type <array>); ignored.
+>]
+<../faultTreeAnalysis/FaultTreeAnalysisBadUserInput.pdf, id=416, 665.60669pt x 
+334.3692pt>
+File: ../faultTreeAnalysis/FaultTreeAnalysisBadUserInput.pdf Graphic file (type
+ pdf)
+<use ../faultTreeAnalysis/FaultTreeAnalysisBadUserInput.pdf>
+Package pdftex.def Info: ../faultTreeAnalysis/FaultTreeAnalysisBadUserInput.pdf
+  used on input line 97.
+(pdftex.def)             Requested size: 245.83282pt x 123.49527pt.
+ [11
+
+ <../faultTreeAnalysis/FaultTreeAnalysisBadUserInput.pdf
+
+pdfTeX warning: pdflatex.exe (file ../faultTreeAnalysis/FaultTreeAnalysisBadUse
+rInput.pdf): PDF inclusion: invalid other resource which is no dict (key 'ProcS
+ets', type <array>); ignored.
+>] (document.toc) [12
+
+] [13
 
 ]
 \tf@nav=\write6
@@ -1040,29 +1152,31 @@ Package pdftex.def Info: fault_tree_example.pdf  used on input line 34.
 \tf@snm=\write8
 \openout8 = `document.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 44.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 44.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 111.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 111.
  (document.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 44.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 44.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 111.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 111.
 Package rerunfilecheck Info: File `document.out' has not changed.
-(rerunfilecheck)             Checksum: 6E3124601A5B36BDEDCD7B765F3E41C8;60.
+(rerunfilecheck)             Checksum: 86D998D4FFB4D1445E59345636EFF7E2;173.
  ) 
 Here is how much of TeX's memory you used:
- 18360 strings out of 492970
- 355240 string characters out of 3126594
- 428730 words of memory out of 3000000
- 21814 multiletter control sequences out of 15000+200000
- 5757 words of font info for 21 fonts, out of 3000000 for 9000
+ 18573 strings out of 492970
+ 361125 string characters out of 3126594
+ 430025 words of memory out of 3000000
+ 21972 multiletter control sequences out of 15000+200000
+ 10695 words of font info for 39 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,19n,63p,804b,605s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 56i,19n,63p,804b,650s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/emrah/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts
 /cm/cmss10.pfb><C:/Users/emrah/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmss12.pfb><C:/Users/emrah/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmss8.pfb>
-Output written on document.pdf (5 pages, 202750 bytes).
+onts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/emrah/AppData/Local/Programs/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi10.pfb><C:/Users/emrah/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on document.pdf (13 pages, 419749 bytes).
 PDF statistics:
- 197 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
- 86 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 550 PDF objects out of 1000 (max. 8388607)
+ 37 named destinations out of 1000 (max. 500000)
+ 187 words of extra memory for PDF output out of 10000 (max. 10000000)
 

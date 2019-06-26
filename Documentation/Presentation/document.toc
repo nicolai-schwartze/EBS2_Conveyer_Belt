@@ -1,1 +1,3 @@
 \beamer@sectionintoc {1}{Allgemeine Informationen}{2}{0}{1}
+\beamer@sectionintoc {2}{Fehlerzustandsbaumdiagramm}{6}{0}{2}
+\beamer@sectionintoc {3}{Zusammenfassung}{12}{0}{3}
