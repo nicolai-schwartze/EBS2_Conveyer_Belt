@@ -6,7 +6,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.60"
+    ComputedModelVersion    "1.62"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -51,7 +51,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [8.0, 8.0, 1295.0, 704.0]
+      Location		      [-7.0, -7.0, 1295.0, 704.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -75,7 +75,7 @@ Model {
 	IsActive		[1]
 	ViewObjType		"SimulinkTopLevel"
 	LoadSaveID		"0"
-	Extents			[1241.0, 523.0]
+	Extents			[1864.0, 808.0]
 	ZoomFactor		[0.8]
 	Offset			[158.05989583333348, -8.3333333333333712]
       }
@@ -90,17 +90,17 @@ Model {
 	UserData		""
 	Floating		[0]
 	DockPosition		"Right"
-	Width			[640]
-	Height			[480]
+	Width			[426]
+	Height			[320]
       }
       WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAAB+PwCAAAAA/sAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
       "AAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0Ac"
-      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABjAP///wAAAAEAAAAAAAAAAPwCA"
+      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAACTAP///wAAAAEAAAAAAAAAAPwCA"
       "AAAAfsAAABUAEcATABVAEUAMgA6AFAAcgBvAHAAZQByAHQAeQBJAG4AcwBwAGUAYwB0AG8AcgAvAFAAcgBvAHAAZQByAHQAeQAgAEkAbgBzAHAAZ"
-      "QBjAHQAbwByAAAAAAD/////AAAAOQD///8AAAT/AAACRAAAAAEAAAACAAAAAQAAAAL8AAAAAQAAAAIAAAAP/////wAAAAAA/////wAAAAAAAAAA/"
+      "QBjAHQAbwByAAAAAAD/////AAAAUwD///8AAAeAAAADdgAAAAEAAAACAAAAAQAAAAL8AAAAAQAAAAIAAAAP/////wAAAAAA/////wAAAAAAAAAA/"
       "////wEAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/"
-      "////wEAAAB5/////wAAAAAAAAAA/////wEAAADa/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAFT/////wAAAAAAAAAA/"
-      "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAL9/////wAAAAAAAAAA/"
+      "////wEAAACp/////wAAAAAAAAAA/////wEAAAEu/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAHX/////wAAAAAAAAAA/"
+      "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAQy/////wAAAAAAAAAA/"
       "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA"
     }
   }
@@ -109,11 +109,11 @@ Model {
   Creator		  "dfr4286"
   UpdateHistory		  "UpdateHistoryNever"
   ModifiedByFormat	  "%<Auto>"
-  LastModifiedBy	  "Nicolai"
+  LastModifiedBy	  "Admin"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Fri Jun 21 22:56:20 2019"
-  RTWModifiedTimeStamp	  483057677
-  ModelVersionFormat	  "1.%<AutoIncrement:60>"
+  LastModifiedDate	  "Sat Jun 22 14:54:17 2019"
+  RTWModifiedTimeStamp	  483115342
+  ModelVersionFormat	  "1.%<AutoIncrement:62>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "none"
@@ -225,7 +225,7 @@ Model {
 	  DisabledProps		  []
 	  Description		  ""
 	  StartTime		  "0.0"
-	  StopTime		  "3"
+	  StopTime		  "3.5"
 	  AbsTol		  "auto"
 	  AutoScaleAbsTol	  on
 	  FixedStep		  "auto"
@@ -1180,7 +1180,7 @@ Model {
   }
   System {
     Name		    "Motor"
-    Location		    [8, 8, 1303, 712]
+    Location		    [-7, -7, 1288, 697]
     Open		    on
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
@@ -1225,14 +1225,14 @@ Model {
       "gr.Configuration('Core','General UI',true),extmgr.Configuration('Core','Source UI',true),extmgr.Configuration('S"
       "ources','WiredSimulink',true,'DataLoggingSaveFormat','StructureWithTime','DataLoggingDecimation','1','DataLoggin"
       "gDecimateData',true),extmgr.Configuration('Visuals','Time Domain',true,'SerializedDisplays',{struct('MinYLimReal"
-      "','-263.62386','MaxYLimReal','2372.61471','YLabelReal','','MinYLimMag',' 0.00000','MaxYLimMag','2372.61471','Leg"
+      "','-242.15995','MaxYLimReal','2179.43957','YLabelReal','','MinYLimMag',' 0.00000','MaxYLimMag','2179.43957','Leg"
       "endVisibility','off','XGrid',true,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.68627"
       "4509803922 0.686274509803922 0.686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529"
       "411764706 1;1 0.411764705882353 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647"
       "058823529 0.274509803921569 1;0.0588235294117647 1 1;1 0.0745098039215686 0.650980392156863],'Title','%<SignalLa"
       "bel>','LinePropertiesCache',{{}},'UserDefinedChannelNames',{{}},'NumLines',2,'LineNames',{{'Manual Switch','n'}}"
-      ",'ShowContent',true,'Placement',1)},'DisplayPropertyDefaults',struct('MinYLimReal','-263.62386','MaxYLimReal','2"
-      "372.61471','YLabelReal','','MinYLimMag',' 0.00000','MaxYLimMag','2372.61471','LegendVisibility','off','XGrid',tr"
+      ",'ShowContent',true,'Placement',1)},'DisplayPropertyDefaults',struct('MinYLimReal','-242.15995','MaxYLimReal','2"
+      "179.43957','YLabelReal','','MinYLimMag',' 0.00000','MaxYLimMag','2179.43957','LegendVisibility','off','XGrid',tr"
       "ue,'YGrid',true,'PlotMagPhase',false,'AxesColor',[0 0 0],'AxesTickColor',[0.686274509803922 0.686274509803922 0."
       "686274509803922],'ColorOrder',[1 1 0.0666666666666667;0.0745098039215686 0.623529411764706 1;1 0.411764705882353"
       " 0.16078431372549;0.392156862745098 0.831372549019608 0.0745098039215686;0.717647058823529 0.274509803921569 1;0"
@@ -1240,7 +1240,7 @@ Model {
       "},'UserDefinedChannelNames',{{}},'NumLines',0,'LineNames',{{[]}},'ShowContent',true,'Placement',1),'TimeRangeSam"
       "ples','1','TimeRangeFrames','1'),extmgr.Configuration('Tools','Plot Navigation',true,'OnceAtStop',false,'Previou"
       "sAutoscale','XY'),extmgr.Configuration('Tools','Measurements',true,'Version','2018b')),'Version','2018b','Locati"
-      "on',[1 76 1921 1049])"
+      "on',[1 71.6666666666667 1281 688.333333333333])"
       NumInputPorts	      "1"
       Floating		      off
     }
@@ -1330,6 +1330,7 @@ Model {
       Position		      [475, 247, 505, 283]
       ZOrder		      -10
       NamePlacement	      "alternate"
+      CurrentSetting	      "0"
     }
     Block {
       BlockType		      Mux
@@ -1947,17 +1948,17 @@ MatData {
     "         !0    @    !     0    $         \"0    @           #P/PX    8 0  !@    @    \"          4    (     0    $"
     "    !          4 !  )     0   !L   !C:&%N;F5L<P!Y3&EM      !L86)E;%!O<P        X    X    !@    @    &          4  "
     "  (     0    $    !          D    (            \\#\\.    0     8    (    !@         %    \"     $    \"     0     "
-    "    )    $           B*/       \"(HT .    ,     8    (    !          %    \"     $    \"     0         0  ( 5$P   "
-    "X   !H @  !@    @    \"          4    (     0    $    !          4 !  .     0   &(   !D:7-P5&EM90       &1I<W!-;V1"
-    "E        ;6EN5&EM90        !M87A4:6UE         &%F=&5R1FEN86Q3='( <V%M<&QE5&EM90    !Z97)O0W)O<W,               X  "
-    " !     !@    @    &          4    (     0    (    !          D    0                       D0 X    X    !@    @    "
-    "&          4    (     0    $    !          D    (            \\#\\.    .     8    (    !@         %    \"     $   "
-    " !     0         )    \"               #@   #@    &    \"     8         !0    @    !     0    $         \"0    @  "
-    "          D0 X   !     !@    @    $          4    (     0    L    !         !     +    17AT<F%P;VQA=&4       X    "
-    "X    !@    @    &          4    (     0    $    !          D    (               .    ,     8    (    !          % "
-    "   \"     $    \"     0         0  ( ;VX   X   \"  0  !@    @    \"          4    (     0    $    !          4 !  "
-    ".     0   #@   !A8W1I=F5$:7-P261X '1I;65286YG90      ;F%M90            !D:7-P;&%Y4F%N9V4   X    X    !@    @    & "
-    "         4    (     0    $    !          D    (            \\#\\.    0     8    (    !@         %    \"     $    \""
+    "    )    $           B*/       ! GT .    ,     8    (    !          %    \"     $    \"     0         0  ( 5$P   X"
+    "   !H @  !@    @    \"          4    (     0    $    !          4 !  .     0   &(   !D:7-P5&EM90       &1I<W!-;V1E"
+    "        ;6EN5&EM90        !M87A4:6UE         &%F=&5R1FEN86Q3='( <V%M<&QE5&EM90    !Z97)O0W)O<W,               X   "
+    "!     !@    @    &          4    (     0    (    !          D    0                       D0 X    X    !@    @    &"
+    "          4    (     0    $    !          D    (            \\#\\.    .     8    (    !@         %    \"     $    "
+    "!     0         )    \"               #@   #@    &    \"     8         !0    @    !     0    $         \"0    @   "
+    "         D0 X   !     !@    @    $          4    (     0    L    !         !     +    17AT<F%P;VQA=&4       X    X"
+    "    !@    @    &          4    (     0    $    !          D    (               .    ,     8    (    !          %  "
+    "  \"     $    \"     0         0  ( ;VX   X   \"  0  !@    @    \"          4    (     0    $    !          4 !  ."
+    "     0   #@   !A8W1I=F5$:7-P261X '1I;65286YG90      ;F%M90            !D:7-P;&%Y4F%N9V4   X    X    !@    @    &  "
+    "        4    (     0    $    !          D    (            \\#\\.    0     8    (    !@         %    \"     $    \""
     "     0         )    $                       )$ .    .     8    (    !          %    \"     $    '     0         0 "
     "   !P   $=R;W5P(#$ #@   $     &    \"     8         !0    @    !     @    $         \"0   !                       "
     "\"1 #@   #@    &    \"     8         !0    @    !     0    $         \"0    @           #P/PX    X    !@    @    &"
@@ -1974,9 +1975,9 @@ MatData {
     " (    \"     0         #     0    0          P    (    !     0    0    !     @    4    !     P                    "
     "                          #@         .    .     8    (    !          %    \"     $    '     0         0    !P   $="
     "R;W5P(#$ #@   #@    &    \"     0         !0    @    !    \"     $         $     @   !3:6=N86P@,0X   !H    !@    @"
-    "    &          4    (     0    <    !          D    X              \":F9F9F9FY/YJ9F9F9F1-         %$!F9F9F9F840,W,"
-    "S,S,S\"-         )$ .    :     8    (    !@         %    \"     $    '     0         )    .                     ! "
-    "GT       $\"?0                 ! G\\       $\"?P           #@   $@    &    \"     T         !0    @    &     0    "
+    "    &          4    (     0    <    !          D    X                      #P/P       !)         %$!F9F9F9F840,W,S"
+    ",S,S\"-         )$ .    :     8    (    !@         %    \"     $    '     0         )    .                      @G"
+    "$       \"\"<0                 ! G\\       $\"?P           #@   $@    &    \"     T         !0    @    &     0    "
     "$         !@   !@       #= @    $    !     P    $    .    2     8    (    #0         %    \"     8    !     0     "
     "    &    &        -T\"     0    $    \"     @    X   !     !@    @    ,          4    (    !     $    !          4"
     "    0                          X    X!0  !@    @    !          4    (    !     $    !          X    X    !@    @  "

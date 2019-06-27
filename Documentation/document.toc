@@ -9,8 +9,7 @@
 \contentsline {section}{\numberline {3.1}Class Diagram}{11}{section.3.1}
 \contentsline {section}{\numberline {3.2}State Diagram}{11}{section.3.2}
 \contentsline {chapter}{\numberline {4}Change Notes}{15}{chapter.4}
-\contentsline {chapter}{\numberline {5}Controller}{16}{chapter.5}
-\contentsline {chapter}{\numberline {6}Summary}{17}{chapter.6}
-\contentsline {chapter}{Appendix A: Assignment}{18}{chapter*.15}
-\contentsline {chapter}{Appendix B: Requirements}{20}{chapter*.16}
-\contentsline {chapter}{Appendix C: Old Documentation}{24}{chapter*.17}
+\contentsline {chapter}{\numberline {5}Controller}{17}{chapter.5}
+\contentsline {chapter}{Appendix A: Assignment}{19}{chapter*.17}
+\contentsline {chapter}{Appendix B: Requirements}{21}{chapter*.18}
+\contentsline {chapter}{Appendix C: Old Documentation}{25}{chapter*.19}

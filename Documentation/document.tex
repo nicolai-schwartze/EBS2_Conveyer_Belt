@@ -188,7 +188,8 @@
 %% Die Kapitelstruktur ist mit der Betreuungsperson abzustimmen!
 \chapter{Introduction}
 \label{chap:Introduction}
-This report serves as the documentation of the "Conveyor Belt" \, Semester-Project in Embedded Systems 2. The assignment for the project is provided in the appendix at \nameref{chap:AppendixAAssignment}
+This report serves as the documentation of the "Conveyor Belt" \, Semester-Project in Embedded Systems 2. The assignment for the project is provided in the appendix at \nameref{chap:AppendixAAssignment}. \\
+Further, the \nameref{chap:AppendixCOldDocumentation} includes the old documentation with the old diagrams. As these diagrams have changed severely during the implementation process, the chapter \nameref{chap:ChangeNotes} describes these changes. 
 
 \chapter{Scenarios}
 This chapter introduces the inner working of the software. This should be viewed in conjunction with the requirements from the table in \nameref{chap:AppendixBRequirements}. 
@@ -256,7 +257,7 @@ In the following class diagram, the classes that are marked with a blue header a
 \section{State Diagram}
 \label{chap:State_Diagram}
 
-The software is designed as three hierarchical state machines. The top-level diagram switches between the operation modes chain and service, which is shown in the first diagram. The following two diagrams show the lower level state machines. 
+The former software was designed with three hierarchical state machines. As the framework does not support this concept, there is now only one state machine. In order to display the diagrams, it is still split into three images. 
 
 \begin{figure}[H]
 	\centering
@@ -286,19 +287,51 @@ The software is designed as three hierarchical state machines. The top-level dia
 We had to change the original diagrams compared to the final version of the implementation. The changes and their reason are noted here. 
 
 \begin{itemize}
-	\item We combine the 3 state machines into one state machine because the framework does not allow hierarchical state charts. \\
-	In order to display the diagrams, the pictures are still split into 3 images. Further, the former lower level machines now can only be left from the idle state. 
+	\item The three state machines were converted into one state machine because the framework does not allow hierarchical state charts. \\
+	In order to display the diagrams, the pictures are still split into 3 images. Further, the former lower level machines can be left from every state.  
 	\item As the provided hardware files already define a keyboard, the name of the class had to be changed. Thus the class is now called KeyPad.
 	\item The telnet-server task as well as the tcp-server task did not have a initialisation method. This was included in the class diagram. 
-	\item The server work tasks needs to outside of the class. Thus, these functions are created externally and are not shown in the class diagram. 
+	\item The server work tasks needs to be outside of the class. Thus, these functions are created externally and are not shown in the class diagram. 
+	\item The ConveyorBelt Class was renamed and is now called the SystemManager. 
+	\item The Data class was removed and all its values are now in the SystemManager class. This change was performed, because the values in the data class need to be called by global functions.
+	\item The object myStatemachine was introduced into the SystemManager class.
+	\item The boolean variables serviceIdle and inIdle were included into the SystemManager to perform checks on the current state of the state machine. 
+	\item A character array was included to save the ip address of the right neighbour. 
+	\item The targetValue in the SystemManager is changed by the state machine. This is propagated to the targetRPM in the MotorController. 
+	\item In the state machine, the states to increase and decrease the end-velocity of the motor are scrapped. Now this can only be done in the idle state.  
+	\item The interface for the network classes were not implemented, simply because it would have only been used on two classes. 
+	\item The functionality of the display is contracted into one method called writeParameter. 
+	\item The class Controller is not necessary, as the functionality is performed by the exported Simulink function. 
+	\item The class Motor was newly created in order to separate the functionality of MotorController and Motor. 
+	\item The runToCompletion method in the SystemManager is a wrapper function to call the Run-to-Completion method of the state machine. This was necessary in order to start this function from the main method. 
+	\item The buttons to interact with the system underwent several changes. These can be seen in the requirements table.
+	\item As there was no consent on what messages are sent over the network, these requirements (6, 7, 8, 9, 11, 12, 13) had to be adapted. 
 \end{itemize}
 
 
 \chapter{Controller}
+The task 16 in the \nameref{chap:AppendixBRequirements} was to implement a speed controller for the motor. The actual controller code was exported from a simple Simulink model. This function was inserted into the MotorController class.
 
- 
-\chapter{Summary}
-\label{chap:Summary}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{../Controller/simulinkModel.pdf}
+	\caption[Simulink Model]{Simulink model, that was used to auto-generate the controller code. }
+	\label{fig:SimulinkModel}
+\end{figure}
+
+\newpage
+
+The following plot \ref{fig:ContrllerComparison} compares the desired value with the simulated and the actual value. This also underlines the weakness of the controller. 
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=\textwidth,height=\textheight,keepaspectratio]{../Controller/controllerComparison_Path.eps}
+	\caption[Controller Comparison]{Motor velocity comparison of the target value, the simulated value and the actual value.}
+	\label{fig:ContrllerComparison}
+\end{figure}
+
+
+The plot clearly shows, that the controller only has very poor anti-wind-up properties. This results in the high spike at the beginning of the plot. However, when starting the controller for the first time, the integrator error is 0 and thus does not produce this spike. The steady state in the real system is reached after about 3 seconds. The over-shoot of the real system is even smaller than the over-shoot of simulated system. There are small inaccuracies $(+/- 60rpm)$ when measuring the the actual velocity of the motors. These might further distort the performance of the controller.   
 
 
 %\bibliographystyle{plain}
